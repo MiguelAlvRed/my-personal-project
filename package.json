@@ -1,0 +1,19 @@
+{
+  "name": "hambre",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "lint": "eslint .",
+    "start": "vite --host"
+  },
+  "dependencies": {
+    // Keep all existing dependencies
+  },
+  "devDependencies": {
+    // Keep all existing devDependencies
+  }
+}

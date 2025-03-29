@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet fixes */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+  background: rgba(255,255,255,0.8) !important;
+}
+
+/* Brand styles */
+@layer base {
+  h1 {
+    @apply text-3xl md:text-[36px] font-medium;
+    font-family: 'LT Seada Medium', sans-serif;
+  }
+  body {
+    @apply text-sm;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
